@@ -1,56 +1,313 @@
-<!DOCTYPE html>
-
-<!--{% extends "/templates/base.html" %}  -->
+<!doctype html>
 <html lang="en">
-
-<head>
+  <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Find out more about Arjun and his projects Stork and HireReady">
-    <meta name="keywords" content="Arjun, Naskar, Stork, HireReady, Hire, Ready, MIT, PBE, San Francisco, Homejoy, Nutraclick, Force, Factor, Remind, Y Combinator, StandardCode, Marketing">
-    <meta name="author" content="Arjun Naskar">
-
-    <title>Arjun Naskar</title>
-
-    <link href="//cdn.jsdelivr.net/picnicss/3.4.2/picnic.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/zocial.css" />
-    <link rel="stylesheet" type="text/css" href="css/modal.css" />
-	<link href='http://fonts.googleapis.com/css?family=Pompiere' rel='stylesheet' type='text/css'>
-
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-
-	<!--<script src="//load.sumome.com/" data-sumo-site-id="a2c51334efd18e485e95e65da4001c679205183249441c883b64416ef120c636" async="async"></script>
-
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-61112896-1', 'auto');
-  ga('send', 'pageview');
-
-</script> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Google Fots -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+      <!-- Remixicon Icon -->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+      <!-- Remixicon Icon -->
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <!-- Main CSS -->
+      <link href="assets/css/main.css" rel="stylesheet">
 
 
-</head>
+    <title>Arjun Naskar </title>
+  </head>
+  <body>
 
-<body>
+    <!-- header -->
+    <header class="ds-header" id="site-header">
+        <div class="container">
+            <div class="ds-header-inner">
+              <!-- logo -->
+              <a href="index.html" class="ds-logo">
+                <span>N</span>Arjun Naskar
+              </a>
+              <!-- logo -->
+              <!-- social -->
+              <ul class="ds-social">
+                <li><a href="https://www.github.com/anaskar" target="_blank"><i class="ri-github-fill"></i></a></li>
+                <li><a href="https://www.twitter.com/anaskar" target="_blank"><i class="ri-twitter-fill"></i></a></li>
+                <!-- <li><a href="#" target="_blank"><i class="ri-stack-overflow-line"></i></a></li> -->
+                <li><a href="https://www.linkedin.com/in/arjunnaskar" target="_blank"><i class="ri-linkedin-fill"></i></a></li>
+              </ul>
+              <!-- social -->
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+    <!-- banner -->
+    <div class="ds-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-4 col-xxl-4">
+            <figure>
+              <img style="width: 800%;" src="assets/images/profile-image.jpeg">
+            </figure>
+          </div>
+          <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-8 col-xxl-8">
+            <section>
+                <h1>
+                  <span>HELLO!</span>
+                  I’m Arjun Naskar
+                </h1>
+                <h2>
+                  A Demand Gen, Lifecycle, and Ops marketer based in NYC
+                </h2>
+                <ul class="ds-numbervalulist">
+                  <li>
+                    <strong>12+</strong>
+                    <span>Years Experience</span>
+                  </li>
+                  <li>
+                    <strong>4</strong>
+                    <span>Startups</span>
+                  </li>
+                  <li>
+                    <strong>$20MM+</strong>
+                    <span>ARR Generated</span>
+                  </li>
+                </ul>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- banner -->
 
-	<div style="position:fixed; top:25%;">
-	<div class="render"><div class="row">
-  		<div><center><p style="font-size:50px; color:#8d8c8c;">Arjun Naskar</p></center></div>
-      <div><center><a href="/resume.html" style="font-size:35px; color:#8d8c8c;">Resume</a></center></div>
-	</div>
+    <!-- about -->
+    <div class="ds-about-section">
+      <div class="container">
+        <section>
+            <h2 class="ds-heading">About Me</h2>
+            <p>I've spent the last 12+ years as a growth and marketing professional. Most recently, I went through Y Combinator with a company that created an API that helped others comply with child data privacy laws around the world. Before that, I spent 5.5 years as Head of B2B Marketing at Remind, the largest messaging platform for K-12 in the U.S. There, I helped grow enterprise revenue from $0 to $22MM+ in 4 years.</p>
+            <p>Now, I'm looking for a Head of/Director/VP Marketing position at a quickly growing tech company where I can help accelerate sales through marketing efforts.</p>
+            <div class="ds-button-sec text-center">
+                <a href="resume_latest.pdf" class="ds-button" target="_blank">Download Resume</a>
+            </div>
+        </section>
+      </div>
+    </div>
+    <!-- about -->
+
+    <!--  Skills -->
+    <div class="ds-skills-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+             <h2 class="ds-heading">Leadership Skills</h2>
+             <ul class="ds-skills-list">
+               <li>Mentorship</li>
+               <li>Hiring</li>
+               <li>Recruiting</li>
+               <li>Internal Comms</li>
+               <li>External Comms</li>
+               <li>Contract Negotiations</li>
+             </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+             <h2 class="ds-heading">Core Skills</h2>
+             <ul class="ds-skills-list">
+               <li>Marketing Analytics</li>
+               <li>Product Marketing</li>
+               <li>Marketing Ops</li>
+               <li>Demand Generation</li>
+               <li>Lifecycle Marketing</li>
+               <li>Branding</li>
+               <li>Pricing</li>
+               <li>Partnerships</li>
+               <li>Forecasting</li>
+             </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+             <h2 class="ds-heading">Software</h2>
+             <ul class="ds-skills-list">
+               <li>SQL</li>
+               <li>HTML/CSS</li>
+               <li>Excel</li>
+               <li>Mode Analytics</li>
+               <li>Google Analytics</li>
+               <li>Looker</li>
+               <li>LookML</li>
+               <li>Salesforce</li>
+               <li>LeanData</li>
+               <li>Marketo</li>
+               <li>Mailchimp</li>
+               <li>Braze</li>
+               <li>Outreach</li>
+               <li>Drift</li>
+               <li>Canva</li>
+             </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  Skills -->
+
+   <!-- Experience -->
+   <div class="ds-experience-section">
+     <div class="container">
+        <h2 class="ds-heading">Work Experience</h2>
+        <div class="row ds-experience-list">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+              <section>
+                <span class="ds-year">May 2021 - May 2022</span>
+                <h3 class="ds-officename">StandardCode (YC S21)</h3>
+                <span class="ds-department">Co-Founder</span>
+                <p>Went through Y Combinator with an API that helped companies comply with child data privacy laws.</p>
+                <ul>
+                  <li>Ran outbound sales and marketing to find initial pilot customers.</li>
+                  <li>Conducted user interviews and prospecting calls.</li>
+                  <li>Raised $2MM+ after Demo Day.</li>
+                </ul>
+              </section>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+              <section>
+                <span class="ds-year">December 2015 - May 2021</span>
+                <h3 class="ds-officename">Remind</h3>
+                <span class="ds-department">Head of B2B Marketing</span>
+                <p>Focused on marketing and selling Remind's enterprise offering, taking it from $0M to $20MM+ in < 4 years.</p>
+                <ul>
+                  <li>Designed, impmented, and scaled the marketing tech stack including Marketo, Salesforce, and related tools.</li>
+                  <li>Hired and trained an inside sales team to handle inbound leads.</li>
+                  <li>Experimented with and ran marketing channels including webinars, direct mail, paid ads, and SEO pages.</li>
+                </ul>
+              </section>
+            </div>
+        </div>
+        <div class="row ds-experience-list">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+              <section>
+                <span class="ds-year">February 2015 - December 2015</span>
+                <h3 class="ds-officename">HireReady</h3>
+                <span class="ds-department">Co-Founder</span>
+                <p>Created a common app for gig workers which had customers including Homejoy, Flour & Water, and other Bay Area businesses.</p>
+                <ul>
+                  <li>Onboarded a few hundred indpendend contractors to build the supply side.</li>
+                  <li>Sold contracts to local businesses to fill their hiring needs.</li>
+                  <li>Partnered with local unemployment agencies to be their job board of choice.</li>
+                </ul>
+              </section>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+              <section>
+                <span class="ds-year">December 2012 - February 2015</span>
+                <h3 class="ds-officename">Homejoy</h3>
+                <span class="ds-department">Growth Manager</span>
+                <p>Joined as the 2nd full-time employee working on both ops and growth during my time there.</p>
+                <ul>
+                  <li>Launched 30 cities with a team of launchers I managed. Personally launched the first 20.</li>
+                  <li>Implemented lifecycle and retention marketing using Oracle's Responsys, driving additional customer LTV nationwide.</li>
+                  <li>Ran the $5M P&L Midwest region including local demand and supply operations.</li>
+                </ul>
+              </section>
+            </div>
+        </div>
+        <div class="row ds-experience-list">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+              <section>
+                <span class="ds-year">January 2010 - August 2012</span>
+                <h3 class="ds-officename">Nutraclick</h3>
+                <span class="ds-department">Business Development Manager</span>
+                <p>Ran product development, supply chain management, and distribution for Nutraclick's flagship brand, Force Factor.</p>
+                <ul>
+                  <li>Launched 5 new CPG products from formulation to distribution (~15 SKUs).</li>
+                  <li>Negotiated distribution contracts with GNC, Bodybuilding.com, Walgreens, and Walmart.</li>
+                  <li>Managed vendor relations and reduced cost and production time.</li>
+                </ul>
+              </section>
+            </div>
+        </div>
+     </div>
+   </div>
+    <!-- Experience -->
+
+    <!-- Work -->
+   <!-- <div class="ds-work-section">
+     <div class="container">
+          <h2 class="ds-heading">Latest works</h2>
+          <div class="ds-work-list-section">
+            <div class="ds-work-list">
+              <div class="row">
+                  <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
+                      <section>
+                          <h3 class="ds-work-tilte">Tripy mobile app</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis sem maximus, ornare metus ut, congue enim. Sed fermentum nulla tellus, quis efficitur mauris tristique efficitur. Aliquam rhoncus sem sed ullamcorper venenatis. Aenean malesuada eu orci non sodales. </p>
+                          <a href="works-setails.html" class="ds-button">Details</a>
+                      </section>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
+                      <figure><img src="assets/images/work-1.jpg"></figure>
+                  </div>
+              </div>
+            </div>
+            <div class="ds-work-list">
+              <div class="row">
+                  <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
+                      <section>
+                          <h3 class="ds-work-tilte">Hello mobile app</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis sem maximus, ornare metus ut, congue enim. Sed fermentum nulla tellus, quis efficitur mauris tristique efficitur. Aliquam rhoncus sem sed ullamcorper venenatis. Aenean malesuada eu orci non sodales. </p>
+                          <a href="works-setails.html" class="ds-button">Details</a>
+                      </section>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
+                      <figure><img src="assets/images/work-2.jpg"></figure>
+                  </div>
+              </div>
+            </div>
+            <div class="ds-work-list">
+              <div class="row">
+                  <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
+                      <section>
+                          <h3 class="ds-work-tilte">Cute cookies app</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis sem maximus, ornare metus ut, congue enim. Sed fermentum nulla tellus, quis efficitur mauris tristique efficitur. Aliquam rhoncus sem sed ullamcorper venenatis. Aenean malesuada eu orci non sodales. </p>
+                          <a href="works-setails.html" class="ds-button">Details</a>
+                      </section>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
+                       <figure><img src="assets/images/work-3.jpg"></figure>
+                  </div>
+              </div>
+            </div>
+          </div>
+     </div>
+   </div> -->
+   <!--  Work -->
+
+   <!--  footer -->
+   <footer class="ds-footer text-center">
+     <div class="container">
+        <section>
+          <span>Stay in touch</span>
+          <h4>Want to chat?</h4>
+          <p>Feel free to contact me</p>
+          <a href="mailto:anaskar@gmail.com" class="ds-button">Lets Talk</a>
+        </section>
+     </div>
+   </footer>
 
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-	<div style="position:fixed; bottom:10%; right:10%; color:#8d8c8c;">
-		<a href="http://www.linkedin.com/in/arjunnaskar" class="zocial icon linkedin" style="background-color:#8d8c8c;"></a><br>
-    <h3><a href="mailto:anaskar@gmail.com?subject=Hello%2C%20my%20name%20is%20&body=Hi%20Arjun%2C%20%0D%0A%0D%0A" style="color:#8d8c8c;">Contact</a>&nbsp;|&nbsp;<a href="http://blog.anaskar.com" style="color:#8d8c8c;">Blog</a>&nbsp;|&nbsp;<a href="http://anaskar.com/projects.html" style="color:#8d8c8c;">Recent Projects</a></h3>
-
-	</div>
-</body>
-
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
